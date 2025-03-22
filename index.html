@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fat Peach Prints</title>
+  <style>
+    :root {
+      --bg-color: #f5efe6;
+      --text-color: #3e2f1c;
+      --accent-color: #d17b4a;
+      --footer-bg: #e8dccb;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
+
+    header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      background-image: url('fat-peach-placeholder.png'); /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+
+    .hero {
+      min-height: 80vh;
+      background-image: url('background-image.jpg'); /* Replace with a real entertaining image */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    .hero h1 {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 2rem;
+      border-radius: 10px;
+      font-size: 2rem;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .footer-logo {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.3rem;
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"></div>
+  </header>
+
+  <section class="hero">
+    <h1>
+      <!-- This is where your story/letter will go -->
+      Coming soon: A story about fat peaches and 3D printing. 🍑
+    </h1>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Fat Peach Prints</div>
+  </footer>
+</body>
+</html>
